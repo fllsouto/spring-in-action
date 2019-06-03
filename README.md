@@ -45,5 +45,8 @@ Tipos de anotações que posso usar para mapear requisições:
 
 Para acessar a minha primeira página basta acessar `locahost:8080/`, não precisa colocar o context-name da aplicação.
 
-Posso desabilitar o caching dos templates, basta adicionar o seguinte no `application.properties`: `spring.thymeleaf.cache=false
-`
+Posso desabilitar o caching dos templates, basta adicionar o seguinte no `application.properties`: `spring.thymeleaf.cache=false`
+
+### Capítulo 3
+
+Podemos criar dois arquivos dentro do `src/main/resources/` para nos ajudar com o sql. O primeiro é o `schema.sql` que nos ajuda a criar o banco inicial, e o outro é o `data.sql` que nos permite criar um seed para o banco de dados. Ambos arquivos serão executados assim que a aplicação subir.
